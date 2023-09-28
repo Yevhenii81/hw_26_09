@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <Windows.h>
 using namespace std;
 
@@ -16,7 +16,7 @@ double calculateAverage(const int arr[], int size)
         sum += arr[i];
     }
 
-    int average = int(sum) / size;
+    int average = sum / size;
 
     return average;
 }
@@ -100,8 +100,6 @@ int main()
     cout << "\n";
 
     Sleep(INFINITE);
-
-    return 0;
 }
 
 
